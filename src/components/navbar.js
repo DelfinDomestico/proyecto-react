@@ -5,10 +5,10 @@ function Navbar() {
     <header>
        <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/imgdiente.png" alt="" width="30" height="24" class="d-inline-block align-text-top"/>
-                        Dental Soto
-                    </a>
+            <a class="navbar-brand" href="#">
+                <img src="../assets/imgdiente.png" alt="" width="30" height="24" class="d-inline-block align-text-top"/>
+                Modas Soto
+            </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                    
                     <ul class="navbar-nav">
