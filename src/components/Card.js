@@ -2,8 +2,10 @@ import Contador from "./contador"
 function Card({props}){
     return(
         <>
-        <p>Aquí se agregará información sobre los productos o servicios</p>
-        <Contador nombre={props.nombre}/>
+        <p>{props.tittle}</p>
+        <p>{props.description}</p>
+        <p>Precio: {props.price}</p>
+        <Contador ></Contador>
         </>
     )
 }

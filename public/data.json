@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "tittle":"Polo",
+        "description":"Polo manga larga",
+        "price":"90"
+    },
+    {
+        "id":"2",
+        "tittle":"Pantalón",
+        "description":"Pantalón oscuro",
+        "price":"110"
+    },
+    {
+        "id":"3",
+        "tittle":"Casaca",
+        "description":"Casaca abrigadora",
+        "price":"150"
+    },
+    {
+        "id":"4",
+        "tittle":"Gorra",
+        "description":"Gorra de invierno",
+        "price":"40"
+    }
+]

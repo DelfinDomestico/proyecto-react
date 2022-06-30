@@ -1,12 +1,14 @@
-import {UserState} from "react";
-function Contador({props}){
-    const[num,setNum]=UserState(0)
+import {useState} from "react";
+function Contador(){
+    const[num,setNum]=useState(0);
     const sumar=()=>{
-        setNum(num+1);
-    }
+        setNum(num+1)
+    };
     return(
-        <button onClick={sumar}>Agregar {props.nombre} </button>
-        <p>num</p>
+        <>
+            <button onClick={sumar}>Agregar </button>
+            <p>{num}</p>
+        </>
     )
 }
 export default Contador
