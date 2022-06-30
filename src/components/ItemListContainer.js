@@ -3,8 +3,8 @@ import Card from "./Card"
 function ItemListContainer(){
     return(
         <>
-        <Card />
-        <Card />
+        <Card nombre="Lejía" />
+        <Card nombre="Detergente"/>
         </>
     );
 }
