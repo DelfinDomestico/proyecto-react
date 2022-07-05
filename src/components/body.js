@@ -1,5 +1,6 @@
 import Navbar from "./navbar"
 import ItemListContainer from "./ItemListContainer"
+
 function Body(){
     return(
         <>

@@ -1,5 +1,5 @@
 import Contador from "./contador"
-function Card({props}){
+function Item(props){
     return(
         <>
         <p>{props.tittle}</p>
@@ -9,4 +9,4 @@ function Card({props}){
         </>
     )
 }
-export default Card
+export default Item
