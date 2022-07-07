@@ -1,5 +1,6 @@
 import './navbar.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 function Navbar() {
   return (
     <header>
